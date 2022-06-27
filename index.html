@@ -15,16 +15,15 @@
       </div>
         <ul id="menu" class="hidden">
           <li class="menu-btn-container"><a class="menu-btn" href="home">Wat heb ik geleerd</a></li>
-          <li  class="menu-btn-container"><a href="about">About</a></li>
-          <li class="menu-btn-container"><a href="portfolio">Portfolio</a></li>
-          <li class="menu-btn-container"><a href="contact">Contact</a></li>
+          <li  class="menu-btn-container"><a href="about">Opdrachten</a></li>
+          <li class="menu-btn-container"><a href="portfolio">Contact</a></li>
+          <li class="menu-btn-container"><a href="contact">Footer</a></li>
         </ul>
         <button id="hamburger">☰</button>
-     
       </header>
       <main>
         <section class="learned">
-          <article class="info ">
+          <article class="info info1">
             <div class="text-part">
               <h2>Wat heb ik geleerd deze periode</h2>
               <p class="sentence">
@@ -118,7 +117,10 @@
         </section>
         
       </main>
-      <footer>&copy;</footer>
+      <footer> &copy; 
+        <script>document.write(new Date().getDate() + "-"); document.write(new Date().getMonth() + "-");document.write(new Date().getFullYear())</script>
+      <p>-Charlotte Hage</p>
+       </footer>
     </div>
   </body>
 </html>
