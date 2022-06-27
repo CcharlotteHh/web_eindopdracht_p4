@@ -11,7 +11,6 @@
 }
 
 body {
-  background-color: black;
   height: 1420px;
   height: 100%;
 }
@@ -22,6 +21,7 @@ body {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
   background-color: white;
 }
 
-.naam{
+.naam {
   width: 25%;
   float: left;
   height: 65px;
@@ -44,7 +44,7 @@ header a {
   text-align: center;
   text-decoration: none;
   color: black;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 #menu {
@@ -52,11 +52,11 @@ header a {
   width: 60%;
   float: right;
   height: 65px;
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-nav{
+nav {
   height: 100%;
 }
 
@@ -64,21 +64,22 @@ nav{
   float: left;
   width: 25%;
   height: 100%;
-  padding-right: 1px;
 }
 
-.menu-btn{
-  background-color:red;
-  width: 145px;
+.menu-btn {
+  background-color: red;
+  width: 150px;
   height: 25px;
   border-radius: 5px;
-  color:white;
+  color: white;
+  padding: 1px;
 }
 
-.menu-btn-container{
-  display:flex;
+.menu-btn-container {
+  width: 150px;
+  display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 #menu li a {
@@ -125,26 +126,24 @@ nav{
   }
 }
 
-main{
+main {
   height: 1290px;
 }
 .learned {
   height: 490px;
   width: 100%;
   max-width: 960px;
-  justify-content: space-evenly;;
   background-color: var(--grey);
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
-  padding-bottom: 10px;
+  justify-content: flex-start;
+  padding-bottom: 30px;
 }
 
 .info {
   height: 200px;
   width: 100%;
   display: flex;
-  
 }
 
 .text-part {
@@ -152,15 +151,15 @@ main{
   height: 170px;
   padding-left: 55px;
 }
-.info1{
+.info1 {
   margin-top: 65px;
 }
 
 .sentence {
-  margin-bottom:25px;
+  margin-bottom: 25px;
 }
 
-.part2{ 
+.part2 {
   padding-top: 25px;
 }
 
@@ -169,12 +168,11 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  height:165px;
+  height: 165px;
 }
 
 figcaption {
   text-align: center;
-
 }
 
 .assignments {
@@ -269,12 +267,11 @@ footer {
   width: 100%;
   max-width: 960px;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   background-color: var(--red);
   font-weight: bold;
-  color:white;
-
+  color: white;
 }
 footer p {
   margin-left: 4px;
