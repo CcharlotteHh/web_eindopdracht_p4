@@ -141,22 +141,26 @@ main {
 }
 
 .info {
-  height: 200px;
+  height: 150px;
   width: 100%;
   display: flex;
 }
 
-.text-part {
+.learned h2{
   width: 75%;
+  padding-left: 55px;
+  margin-top: 45px
+}
+
+.text-part {
+  width: 75%;;
   height: 170px;
   padding-left: 55px;
-}
-.info1 {
-  margin-top: 45px;
 }
 
 .sentence {
   margin-bottom: 25px;
+  font-weight: normal;
 }
 
 .part2 {
@@ -196,6 +200,10 @@ figcaption {
   text-decoration: none;
   color: black;
   margin-bottom: 10px;
+}
+
+ .opdr2 {
+  font-weight: normal !important;
 }
 
 .pencil-box {
